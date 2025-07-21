@@ -12,10 +12,10 @@ cd healthkart_dashboard
 streamlit run main.py
 ```
 
-## 🎨 Premium UI Features
+## 🎨 UI Features
 - Glassmorphism effects and modern color palette
-- Animated header with logo, search, and avatar
-- Card-based layouts with avatars and icons
+- Animated header with logo, search and avatar
+- Card based layouts with avatars and icons
 - Interactive Plotly charts (bar, pie)
-- Responsive and mobile-friendly design
-- Progress bars, action buttons, and micro-interactions 
+- Responsive and mobile friendly design
+- Progress bars, action buttons and micro-interactions 
