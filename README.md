@@ -1,21 +1,32 @@
 # Influencer Dashboard
 
-## 💡 Assumptions
-- Simulated data (no real campaign data provided)
-- Influencer payout model is either per post or per order
-- ROAS = Total Revenue / Total Payout
+An interactive dashboard for analysing influencer marketing performance.
 
-## 🛠️ Setup
+Built to explore how campaign metrics like revenue, payout, and ROAS can be tracked and visualised in a simple interface using simulated data.
+
+## What it does
+
+- Simulates influencer campaign data  
+- Supports different payout models (per post / per order)  
+- Calculates key metrics like revenue, payout, and ROAS  
+- Visualizes performance using interactive charts  
+
+## Features
+
+- Clean, card-based UI with interactive elements  
+- Plotly charts for revenue, payouts, and performance trends  
+- Search and filtering for influencers  
+- Responsive layout with basic animations  
+
+## Tech
+
+- Python  
+- Streamlit  
+- Pandas, NumPy  
+- Plotly  
+
+## Run locally
+
 ```bash
-pip install streamlit pandas numpy faker matplotlib seaborn plotly
-cd healthkart_dashboard
+pip install -r requirements.txt
 streamlit run main.py
-```
-
-## 🎨 UI Features
-- Glassmorphism effects and modern color palette
-- Animated header with logo, search and avatar
-- Card based layouts with avatars and icons
-- Interactive Plotly charts (bar, pie)
-- Responsive and mobile friendly design
-- Progress bars, action buttons and micro-interactions 
